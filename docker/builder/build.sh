@@ -20,7 +20,7 @@ if [ ${docker_gid} == ${gid} ]; then
 	docker_gid=""
 fi
 
-docker build -q -t build-cita \
+docker build -t build-cita \
 	--build-arg IMG_USER="${USER}" \
 	--build-arg UID=${uid} \
 	--build-arg GID=${gid} \

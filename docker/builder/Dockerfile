@@ -27,8 +27,8 @@ RUN apt-get update && \
 
 ENV http_proxy=${http_proxy:-}
 ENV https_proxy=${http_proxy:-}
-ENV RUSTUP_UPDATE_ROOT=${RUSTUP_UPDATE_ROOT:-}
-ENV RUSTUP_DIST_SERVER=${RUSTUP_DIST_SERVER:-}
+ENV RUSTUP_DIST_SERVER=https://mirrors.ustc.edu.cn/rust-static/
+ENV RUSTUP_UPDATE_ROOT=https://mirrors.ustc.edu.cn/rust-static/rustup
 
 COPY ./rust.config /root/.cargo/config.toml
 RUN curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSLf | \
