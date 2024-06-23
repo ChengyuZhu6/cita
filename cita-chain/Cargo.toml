@@ -11,20 +11,20 @@ dotenv = "0.13.0"
 clap = "2"
 serde_json = "1.0"
 cita-logger = "0.1.1"
-cita-types = { https://github.com/ChengyuZhu6/cita-common, branch = "main" }
-libproto = { https://github.com/ChengyuZhu6/cita-common, branch = "main" }
-pubsub = { https://github.com/ChengyuZhu6/cita-common, branch = "main" }
-cita-directories = { https://github.com/ChengyuZhu6/cita-common, branch = "main" }
-util = { https://github.com/ChengyuZhu6/cita-common, branch = "main" }
-error = { https://github.com/ChengyuZhu6/cita-common, branch = "main" }
-jsonrpc-types = { https://github.com/ChengyuZhu6/cita-common, branch = "main" }
+cita-types = { git = "https://github.com/ChengyuZhu6/cita-common.git", branch = "main" }
+libproto = { git = "https://github.com/ChengyuZhu6/cita-common.git", branch = "main" }
+pubsub = { git = "https://github.com/ChengyuZhu6/cita-common.git", branch = "main" }
+cita-directories = { git = "https://github.com/ChengyuZhu6/cita-common.git", branch = "main" }
+util = { git = "https://github.com/ChengyuZhu6/cita-common.git", branch = "main" }
+error = { git = "https://github.com/ChengyuZhu6/cita-common.git", branch = "main" }
+jsonrpc-types = { git = "https://github.com/ChengyuZhu6/cita-common.git", branch = "main" }
 core = { path = "./core" }
 common-types = { path = "./types" }
-proof = { https://github.com/ChengyuZhu6/cita-common, branch = "main" }
+proof = { git = "https://github.com/ChengyuZhu6/cita-common.git", branch = "main" }
 cita_db = { version = "0.1", package = "cita-database" }
 
 [build-dependencies]
-util = { https://github.com/ChengyuZhu6/cita-common, branch = "main" }
+util = { git = "https://github.com/ChengyuZhu6/cita-common.git", branch = "main" }
 
 [features]
 default = ["secp256k1", "sha3hash", "rabbitmq"]

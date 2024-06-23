@@ -10,10 +10,10 @@ dotenv = "0.13.0"
 clap = "2"
 fs2 = "0.4.3"
 cita-logger = "0.1.0"
-util = { https://github.com/ChengyuZhu6/cita-common, branch = "main" }
-pubsub = { https://github.com/ChengyuZhu6/cita-common, branch = "main" }
-libproto = { https://github.com/ChengyuZhu6/cita-common, branch = "main" }
-error =  { https://github.com/ChengyuZhu6/cita-common, branch = "main" }
+util = { git = "https://github.com/ChengyuZhu6/cita-common.git", branch = "main" }
+pubsub = { git = "https://github.com/ChengyuZhu6/cita-common.git", branch = "main" }
+libproto = { git = "https://github.com/ChengyuZhu6/cita-common.git", branch = "main" }
+error =  { git = "https://github.com/ChengyuZhu6/cita-common.git", branch = "main" }
 
 [features]
 default = ["secp256k1", "sha3hash", "rabbitmq"]

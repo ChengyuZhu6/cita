@@ -10,13 +10,13 @@ serde = "1.0"
 serde_derive = "1.0"
 bincode = "0.8.0"
 cita-logger = "0.1.0"
-libproto = { https://github.com/ChengyuZhu6/cita-common, branch = "main" }
-hashable = { https://github.com/ChengyuZhu6/cita-common, branch = "main" }
+libproto = { git = "https://github.com/ChengyuZhu6/cita-common.git", branch = "main" }
+hashable = { git = "https://github.com/ChengyuZhu6/cita-common.git", branch = "main" }
 clap = "2"
-pubsub = { https://github.com/ChengyuZhu6/cita-common, branch = "main" }
-cita-types = { https://github.com/ChengyuZhu6/cita-common, branch = "main" }
-cita-crypto = { https://github.com/ChengyuZhu6/cita-common, branch = "main" }
-proof = { https://github.com/ChengyuZhu6/cita-common, branch = "main" }
+pubsub = { git = "https://github.com/ChengyuZhu6/cita-common.git", branch = "main" }
+cita-types = { git = "https://github.com/ChengyuZhu6/cita-common.git", branch = "main" }
+cita-crypto = { git = "https://github.com/ChengyuZhu6/cita-common.git", branch = "main" }
+proof = { git = "https://github.com/ChengyuZhu6/cita-common.git", branch = "main" }
 chrono = "0.4.2"
 
 [features]

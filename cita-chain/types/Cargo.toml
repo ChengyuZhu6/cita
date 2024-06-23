@@ -7,15 +7,15 @@ license = "Apache-2.0"
 edition = "2018"
 
 [dependencies]
-rlp = { https://github.com/ChengyuZhu6/cita-common, branch = "main" }
-util = { https://github.com/ChengyuZhu6/cita-common, branch = "main" }
-cita-types = { https://github.com/ChengyuZhu6/cita-common, branch = "main" }
-hashable = { https://github.com/ChengyuZhu6/cita-common, branch = "main" }
-jsonrpc-types = { https://github.com/ChengyuZhu6/cita-common, branch = "main" }
-cita-crypto = { https://github.com/ChengyuZhu6/cita-common, branch = "main" }
-libproto = { https://github.com/ChengyuZhu6/cita-common, branch = "main" }
-cita-ed25519 = { https://github.com/ChengyuZhu6/cita-common, branch = "main" }
-snappy = { https://github.com/ChengyuZhu6/cita-common, branch = "main" }
+rlp = { git = "https://github.com/ChengyuZhu6/cita-common.git", branch = "main" }
+util = { git = "https://github.com/ChengyuZhu6/cita-common.git", branch = "main" }
+cita-types = { git = "https://github.com/ChengyuZhu6/cita-common.git", branch = "main" }
+hashable = { git = "https://github.com/ChengyuZhu6/cita-common.git", branch = "main" }
+jsonrpc-types = { git = "https://github.com/ChengyuZhu6/cita-common.git", branch = "main" }
+cita-crypto = { git = "https://github.com/ChengyuZhu6/cita-common.git", branch = "main" }
+libproto = { git = "https://github.com/ChengyuZhu6/cita-common.git", branch = "main" }
+cita-ed25519 = { git = "https://github.com/ChengyuZhu6/cita-common.git", branch = "main" }
+snappy = { git = "https://github.com/ChengyuZhu6/cita-common.git", branch = "main" }
 serde = "1.0"
 serde_derive = "1.0"
 bloomchain = "0.2"
@@ -24,7 +24,7 @@ time = "0.1"
 rustc-hex = "1.0"
 cita_trie = "2.0.0"
 cita-logger = "0.1.0"
-proof = { https://github.com/ChengyuZhu6/cita-common, branch = "main" }
+proof = { git = "https://github.com/ChengyuZhu6/cita-common.git", branch = "main" }
 cita-database = "0.1"
 
 [dependencies.cita-vm]
