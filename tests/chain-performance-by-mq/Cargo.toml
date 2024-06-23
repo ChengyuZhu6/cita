@@ -10,16 +10,16 @@ serde = "1.0"
 serde_derive = "1.0"
 clap = "2"
 cita-logger = "0.1.0"
-libproto = { git = "https://github.com/citahub/cita-common.git", branch = "develop" }
+libproto = { https://github.com/ChengyuZhu6/cita-common, branch = "main" }
 rustc-serialize = "0.3"
-cita-types = { git = "https://github.com/citahub/cita-common.git", branch = "develop" }
-cita-crypto = { git = "https://github.com/citahub/cita-common.git", branch = "develop" }
-hashable = { git = "https://github.com/citahub/cita-common.git", branch = "develop" }
+cita-types = { https://github.com/ChengyuZhu6/cita-common, branch = "main" }
+cita-crypto = { https://github.com/ChengyuZhu6/cita-common, branch = "main" }
+hashable = { https://github.com/ChengyuZhu6/cita-common, branch = "main" }
 dotenv = "0.13.0"
-proof = { git = "https://github.com/citahub/cita-common.git", branch = "develop" }
+proof = { https://github.com/ChengyuZhu6/cita-common, branch = "main" }
 bincode = "0.8.0"
 cpuprofiler = "0.0.3"
-pubsub = { git = "https://github.com/citahub/cita-common.git", branch = "develop" }
+pubsub = { https://github.com/ChengyuZhu6/cita-common, branch = "main" }
 
 [dev-dependencies]
 common-types = { path = "../../cita-chain/types" }

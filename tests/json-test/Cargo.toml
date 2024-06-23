@@ -16,10 +16,10 @@ tiny-keccak = "1.4.2"
 env_logger = "0.6.1"
 log = "0.4.0"
 
-libproto = { git = "https://github.com/citahub/cita-common.git", branch = "develop" }
-cita-types = { git = "https://github.com/citahub/cita-common.git", branch = "develop" }
+libproto = { https://github.com/ChengyuZhu6/cita-common, branch = "main" }
+cita-types = { https://github.com/ChengyuZhu6/cita-common, branch = "main" }
 core-executor = { path="../../cita-executor/core"}
-cita-crypto = { git = "https://github.com/citahub/cita-common.git", branch = "develop" }
+cita-crypto = { https://github.com/ChengyuZhu6/cita-common, branch = "main" }
 cita_trie = "2.0"
 
 [dependencies.cita-vm]

@@ -10,13 +10,16 @@ RUN apt-get update && \
     build-essential \ 
     ca-certificates \
     curl \
+    gcc \
     g++ \
     git \
     gnupg2 \
     libssl-dev \
     make \
     makedev \
+    musl-tools \
     openssl \
+    perl \
     protobuf-compiler \
     pkg-config \
     sudo && \
