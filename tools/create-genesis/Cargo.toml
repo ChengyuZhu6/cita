@@ -22,7 +22,7 @@ libproto = { git = "https://github.com/ChengyuZhu6/cita-common.git", branch = "m
 cita-types = { git = "https://github.com/ChengyuZhu6/cita-common.git", branch = "main" }
 
 [dependencies.cita-vm]
-git = "https://github.com/citahub/cita-vm.git"
+git = "https://github.com/ChengyuZhu6/cita-vm.git"
 branch = "cita"
 default-features = false
 features = ["sha3hash"]

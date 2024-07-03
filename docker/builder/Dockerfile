@@ -14,6 +14,7 @@ RUN apt-get update && \
     g++ \
     git \
     gnupg2 \
+    libsnappy-dev \
     libssl-dev \
     make \
     makedev \
