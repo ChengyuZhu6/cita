@@ -7,6 +7,7 @@ edition = "2018"
 
 [dependencies]
 tentacle = { version = "0.6.1" }
+tentacle-discovery = "0.2.9"
 tokio = "0.1.14"
 futures = "0.1.25"
 cita-logger = "0.1.1"
