@@ -741,6 +741,7 @@ dependencies = [
  "serde_json",
  "tempfile 3.10.1",
  "tentacle",
+ "tentacle-discovery",
  "tokio 0.1.22",
  "util",
 ]
@@ -4292,6 +4293,21 @@ dependencies = [
  "wasm-bindgen",
  "wasm-bindgen-futures",
  "winapi 0.3.9",
+]
+
+[[package]]
+name = "tentacle-discovery"
+version = "0.2.9"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "787ff62c764ad812e664b88c7b5f1894c5a326230e052ae4782aa4c68e7063d3"
+dependencies = [
+ "byteorder 1.5.0",
+ "bytes 0.4.12",
+ "futures 0.1.31",
+ "log 0.4.22",
+ "rand 0.6.5",
+ "tentacle 0.2.7",
+ "tokio 0.1.22",
 ]
 
 [[package]]
